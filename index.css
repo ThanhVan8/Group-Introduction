@@ -20,15 +20,6 @@ body {
     height: auto;
 }
 
-.logo {
-    font-size: 1.7rem;
-    font-weight: 400;
-    letter-spacing: -0.07rem;
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
-}
-
 #main-section {
     display: flex;
     width: 100%;
@@ -183,8 +174,9 @@ body {
 }
 
 .info-page {
-    padding: 6rem;
     height: 100%;
+    padding-top: 6rem;
+    padding: 6rem 2rem;
 }
 
 .container-info {
@@ -215,7 +207,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;    
-    /* padding-right: 20rem; */
 }
 
 .detail {
@@ -239,12 +230,14 @@ body {
     height: 25rem;
     object-fit: cover;
     object-position: 0% 0%;
+    border-radius: 2rem;
 }
 
 .info-mem {
     display: flex;
     padding-top: 3rem;
     justify-content: space-between;
+    padding: 3rem 3rem 0;
 }
 
 .about {
