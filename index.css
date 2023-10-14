@@ -170,6 +170,76 @@ body {
     font-weight: 600;
 }
 
+.info-page {
+    padding: 6rem;
+    height: 100%;
+}
+
+.container-info{
+    padding-left: 6rem;
+    width: 100%;
+}
+
+.intro{
+    color: #000;
+    text-align: left;
+}
+
+.info-text {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+}
+
+.mem-name{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.detail-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;    
+    padding-right: 20rem;
+}
+
+.detail{
+    font-size: 1.5rem;
+}
+
+
+.field{
+    color: #57C5B6;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.val{
+    color: #000;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.image-info{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.info-mem{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.about{
+    padding: 0 1rem 0 0;
+}
+
 .nav-bar {
     width: 100%;
     height: 10vh;
