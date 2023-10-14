@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #57C5B6;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +13,68 @@ body {
     background-color: #f5f5f5;
     font-size: 24px;
     color: #2c2c2c;
+}
+
+.page {
+    height: 100vh;
+    padding: 2.5rem;
+}
+
+.logo {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 1.7rem;
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.07rem;
+}
+
+.main-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* padding: 0 2.5rem; */
+    align-items: center;
+    gap: 8rem;
+}
+
+.image {
+    width: auto;
+    height: 65vh;
+}
+
+.typograpgy{
+    color: #2C2C2C;
+    font-family: "Inter", sans-serif;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.17rem;
+}
+
+.btv{
+    color: #57C5B6;
+    font-family: "Rubik One", sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.17rem;
+}
+
+.div-left{
+    width: 100%;    
+}
+
+.text {
+    color: #000;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.1rem;
 }
