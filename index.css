@@ -148,7 +148,7 @@ body {
 }
 
 #van {
-    background-image: url(images/mem.png);
+    background-image: url(./member/21127478/image/van0.jpg);
 }
 
 .info {
@@ -203,7 +203,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;    
-    padding-right: 20rem;
+    /* padding-right: 20rem; */
 }
 
 .detail{
@@ -224,7 +224,7 @@ body {
 
 .image-info{
     width: 100%;
-    height: 35vh;
+    height: 25rem;
     object-fit: cover;
     object-position: 0% 0%;
 }
