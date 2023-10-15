@@ -8,6 +8,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,18 +20,23 @@ body {
 .btv {
     color: var(--primary-color);
     font-family: "Rubik One", sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.btv:hover {
+    transform: scale(1.1);
 }
 
 .nav-bar {
     width: 100%;
-    height: 4rem;
+    height: 3.5rem;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--secondary-color);
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
     z-index: 100;
 }
 
@@ -51,7 +57,6 @@ a {
 
 .menu-item:hover {
     color: var(--primary-color);
-    border-bottom: var(--primary-color) 2px solid;
 }
 
 .home-page {
@@ -102,6 +107,19 @@ a {
     background: var(--secondary-color);
     margin: 10px auto;
     border-radius: 0.5rem;
+
+    animation-timeline: view();
+    animation-name: wipe;
+    animation-fill-mode: both;
+}
+
+@keyframes wipe {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 10rem;
+    }
 }
 
 #member-section {
@@ -109,7 +127,7 @@ a {
     flex-direction: column;
     justify-content: center;
     background-color: #f7f7fa;
-    height: 100vh;
+    height: fit-content;
     padding: 3rem 0;
 }
 
