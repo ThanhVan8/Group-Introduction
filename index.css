@@ -181,6 +181,7 @@ a {
     gap: 1rem;
     align-items: center;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .info-card .name {
