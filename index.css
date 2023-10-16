@@ -236,7 +236,9 @@ a {
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    justify-content: center;
+    display: flex;
 }
 
 .detail {
@@ -265,7 +267,7 @@ a {
 .info-mem {
     display: flex;
     padding-top: 3rem;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 3rem 3rem 0;
 }
 
