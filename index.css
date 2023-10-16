@@ -266,7 +266,6 @@ a {
 
 .info-mem {
     display: flex;
-    padding-top: 3rem;
     justify-content: space-around;
     padding: 3rem 3rem 0;
 }
